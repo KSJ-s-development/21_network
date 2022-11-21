@@ -1,11 +1,4 @@
-"""
-연습문제
-다음 뉴스에서 (https://news.daum.net/)
-코스피, 코스닥 지수를 찾아주세요.
-뉴스 리스트 링크를 리스트에 담아주세요.
-뉴스 리스트의 타이틀도 추출해주세요.
-추출 후 아래와 같이 출력되게 해주세요. [ { "title" : title , "link" : link } ... ]
-"""
+
 
 import requests as rq
 from bs4 import BeautifulSoup as bs
